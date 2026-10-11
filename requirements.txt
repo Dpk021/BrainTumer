@@ -1,0 +1,22 @@
+# BrainTumer — MRI brain tumor classification (PyTorch)
+# Python 3.10+ recommended. Install with:  pip install -r requirements.txt
+
+# --- Deep learning ---
+torch>=2.3
+torchvision>=0.18
+
+# --- Data / image handling ---
+numpy>=1.26
+pillow>=10.0
+
+# --- Training & evaluation (notebook: metrics, confusion matrix, ROC, plots) ---
+scikit-learn>=1.4
+matplotlib>=3.8
+seaborn>=0.13
+tqdm>=4.66
+
+# --- Jupyter kernel so VS Code can run notebook.ipynb inside .venv ---
+ipykernel>=6.29
+
+# --- Web app (main.py) ---
+flask>=3.0
